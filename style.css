@@ -1,0 +1,199 @@
+/****
+STYLE GUIDE:
+0. RESET
+1. LAYOUT
+2. GENERIC ITEMS - VISUALS
+3. PARTS OF THE WEB
+4. LIST
+5. FORM
+6. ANIMATIONS
+****/
+
+
+/****
+COLORS
+-> Verde Pistacho: #acc233
+-> Verde Oscuro: #566119
+-> Verde Cielo: #d6e199
+-> Blanco: #fff
+
+
+****/
+
+/* ------ 0. RESET ------ */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ------ 1. LAYOUT ------ */
+
+body{
+    text-align: center;
+    font: 400 20px/1.7 'Roboto';
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarifas{
+    text-align: left;
+}
+
+.list-tratamientos{
+    display: flex;
+    justify-content: center;
+}
+
+/* ------ 2. GENERIC ITEMS - VISUALS------ */
+
+.header{
+    background: url(images/dummy-header.jpg) no-repeat center top;
+    background-size: cover;
+    height: 450px;
+}
+
+.navbar{
+    height: 63px;
+    background-color: #acc233;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 2px dashed #d6e199;
+}
+
+.navbar a{
+    padding: 0px 20px;
+    font: 18px 'IM Fell English';
+}
+
+.title{
+    text-transform: uppercase;
+    font: 60px 'IM Fell English';
+    margin-bottom: 40px;
+}
+
+p{
+    margin-bottom: 40px;
+}
+
+/* ------ 3. PARTS OF THE WEB ------ */
+
+.content{
+    /***border: 3px solid red;***/
+    padding: 80px 0;
+}
+
+    .who{
+        background-color: #acc233;
+        color: #fff;
+    }
+        .who p{
+            max-width: 1055px;
+            margin: 0 auto 40px auto;
+        }
+
+    .tratamientos{
+        background-color: #566119;
+        color: #fff;
+        padding: 0 40px;
+    }
+
+    .tarifas{
+        background: url(images/dummy-tarifas.jpg) no-repeat center top;
+        background-size: cover;
+        color: #fff;
+        padding-left: 80px;
+    }
+
+    .location{
+        color: #566119;
+        padding-bottom: 0;
+    }
+        .image-map{
+            width: 100%;
+            height: 100%;
+        }
+
+        .location p{
+            padding: 0 40px;
+        }
+
+/* ------ 4. LIST ------ */
+
+figure{
+    display: flex;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px;
+}
+
+
+/* ------ 5. FORM ------ */
+
+
+/* ------ 6. ANIMATIONS ------ */
+
+
+
+
+
+
